@@ -1,2 +1,3 @@
 C:\原电脑文件\C#\数据结构\DS\1-单链表\bin\Debug\1-单链表.exe.config
 C:\原电脑文件\C#\数据结构\DS\1-单链表\obj\Debug\1-单链表.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\1-单链表\obj\Debug\1-单链表.csprojResolveAssemblyReference.cache

@@ -10,6 +10,12 @@ namespace _4._1串
     {
         static void Main(string[] args)
         {
+            StringDS s=new StringDS(new char[]{'a','b','c'});
+            StringDS s2=new StringDS(new char[]{'a','b'});
+            StringDS s1=new StringDS(new char[]{'a','b','c', 'd' });
+            int i=s.Compare(s2);
+            Console.WriteLine(i);
+            Console.ReadKey();
         }
     }
 }

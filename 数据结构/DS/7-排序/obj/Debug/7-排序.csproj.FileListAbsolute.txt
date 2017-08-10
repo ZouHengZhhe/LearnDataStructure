@@ -4,3 +4,9 @@ C:\原电脑文件\C#\数据结构\DS\7-排序\bin\Debug\7-排序.pdb
 C:\原电脑文件\C#\数据结构\DS\7-排序\obj\Debug\7-排序.csprojResolveAssemblyReference.cache
 C:\原电脑文件\C#\数据结构\DS\7-排序\obj\Debug\7-排序.exe
 C:\原电脑文件\C#\数据结构\DS\7-排序\obj\Debug\7-排序.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\bin\Debug\7-排序.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\bin\Debug\7-排序.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\bin\Debug\7-排序.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\obj\Debug\7-排序.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\obj\Debug\7-排序.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\7-排序\obj\Debug\7-排序.pdb
