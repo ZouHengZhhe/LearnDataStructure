@@ -1,0 +1,6 @@
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\bin\Debug\3.1-栈.exe.config
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\bin\Debug\3.1-栈.exe
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\bin\Debug\3.1-栈.pdb
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\obj\Debug\3.1-栈.csprojResolveAssemblyReference.cache
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\obj\Debug\3.1-栈.exe
+C:\原电脑文件\C#\数据结构\DS\3.1-栈\obj\Debug\3.1-栈.pdb

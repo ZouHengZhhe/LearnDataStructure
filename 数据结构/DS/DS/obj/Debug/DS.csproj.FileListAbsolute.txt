@@ -1,0 +1,12 @@
+F:\C#\数据结构\DS\DS\bin\Debug\DS.exe.config
+F:\C#\数据结构\DS\DS\bin\Debug\DS.exe
+F:\C#\数据结构\DS\DS\bin\Debug\DS.pdb
+F:\C#\数据结构\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+F:\C#\数据结构\DS\DS\obj\Debug\DS.exe
+F:\C#\数据结构\DS\DS\obj\Debug\DS.pdb
+C:\原电脑文件\C#\数据结构\DS\DS\bin\Debug\DS.exe.config
+C:\原电脑文件\C#\数据结构\DS\DS\obj\Debug\DS.exe
+C:\原电脑文件\C#\数据结构\DS\DS\obj\Debug\DS.pdb
+C:\原电脑文件\C#\数据结构\DS\DS\bin\Debug\DS.exe
+C:\原电脑文件\C#\数据结构\DS\DS\bin\Debug\DS.pdb
+C:\原电脑文件\C#\数据结构\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache

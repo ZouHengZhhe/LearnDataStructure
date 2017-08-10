@@ -1,0 +1,7 @@
+F:\C#\数据结构\DS\顺序表\bin\Debug\顺序表.exe.config
+C:\原电脑文件\C#\数据结构\DS\顺序表\bin\Debug\顺序表.exe.config
+C:\原电脑文件\C#\数据结构\DS\顺序表\obj\Debug\顺序表.csprojResolveAssemblyReference.cache
+C:\原电脑文件\C#\数据结构\DS\顺序表\bin\Debug\顺序表.exe
+C:\原电脑文件\C#\数据结构\DS\顺序表\bin\Debug\顺序表.pdb
+C:\原电脑文件\C#\数据结构\DS\顺序表\obj\Debug\顺序表.exe
+C:\原电脑文件\C#\数据结构\DS\顺序表\obj\Debug\顺序表.pdb
