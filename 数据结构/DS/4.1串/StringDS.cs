@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -85,18 +86,110 @@ namespace _4._1串
         //求子串
         public StringDS SubString(int index,int len)
         {
-            if ((index<0)||index>this.GetLength()-1}||)
+            if ((index<0)||index>this.GetLength()-1||(len<0)||(len>this.GetLength()-index))
             {
-                
+                Console.WriteLine("Position or Length id error!");
+                return null;
             }
+            StringDS s =new StringDS(len);
+
+            for (int i = 0; i < len; i++)
+            {
+                s.data[i] = this[i + index - 1];
+            }
+            return s;
         }
 
         //串连接
+        public StringDS Concat(StringDS s)
+        {
+            StringDS s1=new StringDS(this.GetLength()+s.GetLength());
+            for (int i = 0; i < this.GetLength(); i++)
+            {
+                s1.data[i] = this[i];
+            }
+            for (int j = 0; j < s.GetLength(); j++)
+            {
+                s1.data[this.GetLength()+j] = s.data[j];
+            }
+            return s1;
+        }
 
         //串插入
+        public StringDS Insert(int index,StringDS s)
+        {
+            int len = s.GetLength();
+            int len2 = len + this.GetLength();
+            StringDS s1=new StringDS(len2);
+            if (index<0||index>this.GetLength()-1)
+            {
+                Console.WriteLine("Position is error");
+                return null;
+            }
+
+            for (int i = 0; i < index; ++i)
+            {
+                s1.data[i] = this[i];
+            }
+            for (int i = index; i < index + len; ++i)
+            {
+                s1.data[i] = s[i - index];
+            }
+            for (int i = index + len; i < len2; ++i)
+            {
+                s1.data[i] = this[i - len];
+            }
+            return s1;
+        }
 
         //串删除
+        public StringDS Delete(int index,int len)
+        {
+            if ((index < 0) || (index > this.GetLength() - 1)
+|| (len < 0) || (len > this.GetLength() - index))
+            {
+                Console.WriteLine("Position or Length is error!");
+                return null;
+            }
+            StringDS s = new StringDS(this.GetLength() - len);
+            for (int i = 0; i < index; ++i)
+            {
+                s.data[i] = this[i];
+            }
+            for (int i = index + len; i < this.GetLength(); ++i)
+            {
+                s.data[i] = this[i];
+            }
+            return s;
+        }
 
         //串定位   
+        public int Index(StringDS s)
+        {
+            if (this.GetLength()<s.GetLength())
+            {
+                Console.WriteLine("There is not string s!");
+                return -1;
+            }
+
+            int i = 0;
+            int len = this.GetLength() - s.GetLength();
+            while (i<len)
+            {
+                if (this.Compare(s)==0)
+                {
+                    break;
+                }
+            }
+            if (i<=len)
+            {
+                return i;
+            }
+            if (i<=len)
+            {
+                return i;
+            }
+            return -1;
+        }
     }
 }

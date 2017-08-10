@@ -1,1 +1,2 @@
 C:\原电脑文件\C#\数据结构\DS\4.1串\bin\Debug\4.1串.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\4.1串\bin\Debug\4.1串.exe.config
