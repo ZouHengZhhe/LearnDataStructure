@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _3._2_队列;
 
 namespace _5._2._4_二叉链表存储结构
 {
@@ -207,7 +208,7 @@ namespace _5._2._4_二叉链表存储结构
                 //结点出队
                 Node<T> tmp = sq.Out();
                 //处理当前结点
-                Console.WriteLine("{o}", tmp);
+                Console.WriteLine("{0}", tmp);
                 //将当前结点的左孩子结点入队
                 if (tmp.LChild != null)
                 {

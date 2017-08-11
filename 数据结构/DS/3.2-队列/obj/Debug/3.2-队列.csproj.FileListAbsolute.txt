@@ -4,3 +4,11 @@ C:\原电脑文件\C#\数据结构\DS\3.2-队列\bin\Debug\3.2-队列.pdb
 C:\原电脑文件\C#\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.csprojResolveAssemblyReference.cache
 C:\原电脑文件\C#\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.exe
 C:\原电脑文件\C#\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\bin\Debug\3.2-队列.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\bin\Debug\3.2-队列.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\bin\Debug\3.2-队列.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\obj\Debug\3.2-队列.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\bin\Debug\3.1-栈.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\3.2-队列\bin\Debug\3.1-栈.pdb

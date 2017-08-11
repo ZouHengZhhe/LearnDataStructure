@@ -1,1 +1,2 @@
 C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\5.2.4-二叉链表存储结构\bin\Debug\5.2.4-二叉链表存储结构.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\5.2.4-二叉链表存储结构\obj\Debug\5.2.4-二叉链表存储结构.csprojResolveAssemblyReference.cache
