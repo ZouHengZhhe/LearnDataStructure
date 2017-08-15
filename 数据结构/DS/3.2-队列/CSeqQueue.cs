@@ -22,21 +22,21 @@ namespace _3._2_队列
         public T this[int index]
         {
             get { return data[index]; }
-            set { value = data[index]; }
+            set { data[index] =value ; }
         }
 
         //容量属性
         public int Maxsize
         {
             get { return maxsize; }
-            set { value = maxsize; }
+            set { maxsize = value; }
         }
 
         //队头属性
         public int Front
         {
             get { return front; }
-            set { value = front; }
+            set { front = value; }
         }
 
         //队尾属性
@@ -44,7 +44,7 @@ namespace _3._2_队列
         {
 
             get { return rear; }
-            set { value = rear; }
+            set { rear = value; }
         }
 
         //构造

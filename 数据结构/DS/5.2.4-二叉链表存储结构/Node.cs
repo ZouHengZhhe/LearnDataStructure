@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace _5._2._4_二叉链表存储结构
 {
+    //二叉树节点类
     public class Node<T>
     {
         private T data;          //数据域
@@ -38,21 +39,21 @@ namespace _5._2._4_二叉链表存储结构
         public T Data
         {
             get { return data; }
-            set { value = data; }
+            set { data = value; }
         }
 
         //左孩子属性
         public Node<T> LChild
         {
             get { return lChild;}
-            set { value = lChild; }
+            set { lChild = value; }
         }
 
         //右孩子属性
         public Node<T> RChild
         {
             get { return rChild; }
-            set { value = rChild; }
+            set { rChild = value; }
         }
 
     }

@@ -40,7 +40,7 @@ namespace _3._2_队列
         public T Data
         {
             get { return data; }
-            set { value = data; }
+            set { data=value; }
         }
 
         //引用域属性
@@ -48,7 +48,7 @@ namespace _3._2_队列
         {
             get { return next; }
 
-            set { value = next; }
+            set { next=value; }
         }
     }
 }

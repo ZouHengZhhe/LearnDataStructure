@@ -20,7 +20,7 @@ namespace _5._2._4_二叉链表存储结构
         public Node<T> Head
         {
             get { return head; }
-            set { value = head; }
+            set { head = value; }
         }
 
         //构造
@@ -127,6 +127,68 @@ namespace _5._2._4_二叉链表存储结构
             }
         }
 
+        //二叉树中查找值为 value 的结点。
+        public Node<T> Search(Node<T> root, T value)
+        {
+            Node<T> p = root;
+            if (p == null)
+            {
+                return null;
+            }
+
+            if (!p.Data.Equals(value))
+            {
+                return p;
+            }
+            if (p.LChild != null)
+            {
+                return Search(p.LChild, value);
+            }
+            if (p.RChild != null)
+            {
+                return Search(p.RChild, value);
+            }
+            return null;
+        }
+
+        //统计出二叉树中叶子结点的数目。
+        public int CountLeafNode(Node<T> root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+            else if (root.LChild == null && root.RChild == null)
+            {
+                return 1;
+            }
+            else
+            {
+                return (CountLeafNode(root.LChild) +CountLeafNode(root.RChild));
+            }
+        }
+
+        //求二叉树的深度
+        public int GetHeight(Node<T> root)
+        {
+            int lh;
+            int rh;
+            if (root == null)
+            {
+                return 0;
+            }
+            else if (root.LChild == null && root.RChild == null)
+            {
+                return 1;
+            }
+            else
+            {
+                lh = GetHeight(root.LChild);
+                rh = GetHeight(root.RChild);
+                return (lh > rh ? lh : rh) + 1;
+            }
+        }
+
         /// <summary>
         /// 先序遍历
         /// </summary>
@@ -192,7 +254,7 @@ namespace _5._2._4_二叉链表存储结构
         /// <param name="root"></param>
         public void LevelOrder(Node<T> root)
         {
-            if (root==null)
+            if (root == null)
             {
                 return;
             }
@@ -223,5 +285,5 @@ namespace _5._2._4_二叉链表存储结构
 
         }
 
-        }
+    }
 }

@@ -19,21 +19,21 @@ namespace _3._2_队列
         public Node<T> Front
         {
             get { return front; }
-            set { value = front; }
+            set { front = value; }
         }
 
         //队尾属性
         public Node<T> Rear
         {
             get { return rear; }
-            set { value = rear; }
+            set { rear=value; }
         }
 
         //队列节点个数属性
         public int Num
         {
             get { return num; }
-            set { value = num; }
+            set { num=value; }
         }
 
         //构造
