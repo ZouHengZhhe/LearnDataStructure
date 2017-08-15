@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1A1CDA8-523E-4D19-9F84-78C48333E105}</ProjectGuid>
+    <ProjectGuid>{CF2384B5-9E41-4654-BAC4-46E2170FC9E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_5._2._4_二叉链表存储结构</RootNamespace>
-    <AssemblyName>5.2.4-二叉链表存储结构</AssemblyName>
+    <RootNamespace>_6._1._3图</RootNamespace>
+    <AssemblyName>6.1.3图</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BiTree.cs" />
-    <Compile Include="HuffmanNode.cs" />
-    <Compile Include="HuffmanTree.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\3.2-队列\3.2-队列.csproj">
-      <Project>{1e1445c1-819c-458f-bf50-f31229bc8772}</Project>
-      <Name>3.2-队列</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
