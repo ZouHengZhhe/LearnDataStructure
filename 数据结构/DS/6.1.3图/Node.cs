@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _6._1._3图
 {
-    //图中的定点类
+    //图中的顶点类
     public class Node<T>
     {
         private T data;  //数据域
