@@ -140,7 +140,7 @@ namespace _6._1._3图
         }
 
         //删除顶点v1和v2之间的边
-        public void DelEdge(Node<T> v1, Node<T> v2)
+        public void DeleteEdge(Node<T> v1, Node<T> v2)
         {
             //v1或v2不是图的顶点
             if (!IsNode(v1) || !IsNode(v2))
@@ -199,6 +199,8 @@ namespace _6._1._3图
             }
             return false;
         }
+
+        
     }
 
 }
