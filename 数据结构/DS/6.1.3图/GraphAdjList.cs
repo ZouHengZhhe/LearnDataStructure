@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _3._2_队列;
 
 namespace _6._1._3图
 {
@@ -11,6 +12,7 @@ namespace _6._1._3图
     {
         //邻接表数组
         private VexNode<T>[] adjList;
+        private int[] visited;
 
         //索引器
         public VexNode<T> this[int index]
@@ -34,6 +36,13 @@ namespace _6._1._3图
                 adjList[i].Data = nodes[i];
                 adjList[i].FirstAdj = null;
             }
+
+            visited=new int[adjList.Length];
+            for (int i = 0; i < visited.Length; i++)
+            {
+                visited[i] = 0;
+            }
+
         }
 
         //获取顶点的数目
@@ -177,8 +186,7 @@ namespace _6._1._3图
                 pre.Next = p.Next;
             }
         }
-
-
+        
         //判断v1和v2之间是否存在边
         public bool IsEdge(Node<T> v1, Node<T> v2)
         {
@@ -198,6 +206,69 @@ namespace _6._1._3图
                 p = p.Next;
             }
             return false;
+        }
+
+        //无向图的深度优先遍历算法的实现如下：
+        public void DFS()
+        {
+            for (int i = 0; i < visited.Length; i++)
+            {
+                if (visited[i]==0)
+                {
+                    DFSAL(i);
+                }
+            }
+        }
+
+        //从某个顶点出发进行深度优先遍历
+        public void DFSAL(int i)
+        {
+            visited[i] = 1;
+            AdjListNode<T> p = adjList[i].FirstAdj;
+
+            while (p!=null)
+            {
+                if (visited[p.AdjVert]==0)
+                {
+                    DFSAL(p.AdjVert);
+                }
+                p = p.Next;
+            }
+        }
+
+        public void BFS()
+        {
+            for (int i = 0; i < visited.Length; i++)
+            {
+                if (visited[i] == 0)
+                {
+                    BFSAL(i);
+                }
+            }
+        }
+
+        //从某个顶点出发进行广度优先遍历
+        public void BFSAL(int i)
+        {
+            visited[i] = 1;
+            CSeqQueue<int> cq=new CSeqQueue<int>(visited.Length);
+            cq.In(i);
+
+            while (!cq.IsEmpty())
+            {
+                int k = cq.Out();
+                AdjListNode<T> p = adjList[k].FirstAdj;
+
+                while (p!=null)
+                {
+                    if (visited[p.AdjVert]==0)
+                    {
+                        visited[p.AdjVert] = 1;
+                        cq.In(p.AdjVert);
+                    }
+                    p = p.Next;
+                }
+            }
         }
 
         
