@@ -1,0 +1,6 @@
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\bin\Debug\Relearn1-List.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\bin\Debug\Relearn1-List.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\bin\Debug\Relearn1-List.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\obj\Debug\Relearn1-List.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\obj\Debug\Relearn1-List.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-List\obj\Debug\Relearn1-List.pdb

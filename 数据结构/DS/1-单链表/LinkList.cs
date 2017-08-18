@@ -218,7 +218,6 @@ namespace _1_单链表
         public void Reverse()
         {
             Node<T> p = head.Next;
-            Node<T> p = head.Next;
             Node<T> q = new Node<T>();
             head.Next = null;
             while (p != null)

@@ -10,3 +10,9 @@ C:\原电脑文件\C#\数据结构\DS\DS\obj\Debug\DS.pdb
 C:\原电脑文件\C#\数据结构\DS\DS\bin\Debug\DS.exe
 C:\原电脑文件\C#\数据结构\DS\DS\bin\Debug\DS.pdb
 C:\原电脑文件\C#\数据结构\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\bin\Debug\DS.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\bin\Debug\DS.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\bin\Debug\DS.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\obj\Debug\DS.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\DS\obj\Debug\DS.pdb

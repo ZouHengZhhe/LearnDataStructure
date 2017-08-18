@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Relearn1_List
 {
     //线性表接口类
-    public interface IListDS<T>
+    public interface IListDS1<T>
     {
         int GetLength();                  //求长度
         void Clear();                     //清空操作
