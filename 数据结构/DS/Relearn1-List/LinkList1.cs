@@ -296,7 +296,7 @@ namespace Relearn1_List
             Node1<T> p = head.Next;
             Node1<T> q = new Node1<T>();
             head.Next = null;
-            int len = 0;
+            //int len = 0;
             while (p != null)
             {
                 q = p;
@@ -308,7 +308,161 @@ namespace Relearn1_List
             #endregion
         }
 
-    
+        //将升序排列的两表合并成一个升序排列的表
+        public LinkList1<int> Merge(LinkList1<int> Ha, LinkList1<int> Hb)
+        {
+            #region 把节点插入到链表尾部合并，时间复杂度为O((m+n)*k),m是Ha的表长,n是Hb的表长，k是Hc的表长
+            //LinkList1<int> Hc = new LinkList1<int>();
+
+            //Node1<int> p = Ha.head;
+            //Node1<int> q = Hb.head;
+            //Node1<int> c = Hc.head;
+
+            //if (p.Data<q.Data)
+            //{
+            //    Hc.Append(p.Data);
+            //    p = p.Next;
+            //}
+            //else
+            //{
+            //    Hc.Append(q.Data);
+            //    q = q.Next;
+            //}
+
+            //while (p!=null&&q!=null)
+            //{
+            //    if (p.Data<q.Data)
+            //    {
+            //        Hc.Append(p.Data);
+            //        p = p.Next;
+            //    }
+            //    else
+            //    {
+            //        Hc.Append(q.Data);
+            //        q = q.Next;
+            //    }
+            //}
+
+            //if (p==null&&q!=null)
+            //{
+            //    while (q!=null)
+            //    {
+            //         Hc.Append(q.Data);
+            //        q = q.Next;
+            //    }
+            //}else if (p!=null&&q==null)
+            //{
+            //    while (p!=null)
+            //    {
+            //        Hc.Append(p.Data);
+            //        p = p.Next;
+            //    }
+            //}
+            //return Hc;
+            #endregion
+
+            #region 把节点插入到链表头部合并
+            LinkList1<int> Hc=new LinkList1<int>();
+            Node1<int> p = Ha.head;
+            Node1<int> q = Hb.head;
+            Node1<int> c=new Node1<int>();
+
+            if (p.Data<q.Data)
+            {
+                Hc.head = p;
+                p = p.Next;
+                Hc.head.Next = null;
+            }
+            else
+            {
+                Hc.head = q;
+                q = q.Next;
+            }
+
+            while (p!=null&&q!=null)
+            {
+                if (p.Data<q.Data)
+                {
+                    c = Hc.head;
+                    Hc.head = p;
+                    p = p.Next;
+                    Hc.head.Next = c;
+                }
+                else
+                {
+                    c = Hc.head;
+                    Hc.head = q;
+                    q = q.Next;
+                    Hc.head.Next = c;
+                }
+            }
+
+            if (p==null&&q!=null)
+            {
+                while (q!=null)
+                {
+                    c = Hc.head;
+                    Hc.head = q;
+                    q = q.Next;
+                    Hc.head.Next = c;
+                }
+            }else if (p!=null&&q==null)
+            {
+                while (p!=null)
+                {
+                    c = Hc.head;
+                    Hc.head = p;
+                    p = p.Next;
+                    Hc.head.Next = c;
+                }
+                
+            }
+
+            if (p == null && q == null)
+            {
+                Hc.ReversLinkList();
+            }
+
+            return Hc;
+
+            #endregion
+        }
+
+        //删除单链表中相同值的节点(未完成)
+        public LinkList1<int> Purge(LinkList1<int> a)
+        {
+            LinkList1<int> b=new LinkList1<int>();
+            Node1<int> p =new Node1<int>();
+            Node1<int> s=new Node1<int>();
+            p = a.head;
+            s = p;
+            p = p.Next;
+            s.Next = null;
+            b.head = s;
+            
+
+            while (p!=null)
+            {
+                while (s!=null)
+                {
+                    if (p.Data != s.Data)
+                    {
+                        s = p;
+                        p = p.Next;
+                        Node1<int> q = b.head;
+                        b.head = s;
+                        s.Next = q;
+                        s.Next.Next = null;
+                        
+                    }
+                    s = s.Next;
+                }
+
+            } 
+
+            return b;
+
+        }
 
     }
 }

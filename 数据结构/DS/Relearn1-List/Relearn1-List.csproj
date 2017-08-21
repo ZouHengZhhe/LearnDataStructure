@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbNode.cs" />
     <Compile Include="IListDS1.cs" />
     <Compile Include="LinkList1.cs" />
     <Compile Include="Node1.cs" />
