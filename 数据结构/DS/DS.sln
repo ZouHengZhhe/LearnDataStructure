@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1.3图", "6.1.3图\6.1.3�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-List", "Relearn1-List\Relearn1-List.csproj", "{9AC3EC26-D5C3-4C2A-8D04-ABB2679432DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-StackAndQueue", "Relearn1-StackAndQueue\Relearn1-StackAndQueue.csproj", "{1642ADC7-CABA-45E3-83E1-34B153721BFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9AC3EC26-D5C3-4C2A-8D04-ABB2679432DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC3EC26-D5C3-4C2A-8D04-ABB2679432DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC3EC26-D5C3-4C2A-8D04-ABB2679432DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1642ADC7-CABA-45E3-83E1-34B153721BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1642ADC7-CABA-45E3-83E1-34B153721BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1642ADC7-CABA-45E3-83E1-34B153721BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1642ADC7-CABA-45E3-83E1-34B153721BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

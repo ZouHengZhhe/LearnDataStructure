@@ -1,0 +1,6 @@
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\bin\Debug\Relearn1-StackAndQueue.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\bin\Debug\Relearn1-StackAndQueue.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\bin\Debug\Relearn1-StackAndQueue.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\obj\Debug\Relearn1-StackAndQueue.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\obj\Debug\Relearn1-StackAndQueue.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-StackAndQueue\obj\Debug\Relearn1-StackAndQueue.pdb
