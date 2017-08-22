@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSeqQueue1.cs" />
+    <Compile Include="IQueue1.cs" />
     <Compile Include="IStack1.cs" />
+    <Compile Include="LinkQueue1.cs" />
+    <Compile Include="LinkQueueNode.cs" />
     <Compile Include="LinkStack1.cs" />
     <Compile Include="LinkStackNode.cs" />
     <Compile Include="Program.cs" />

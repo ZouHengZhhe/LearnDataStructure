@@ -26,9 +26,15 @@ namespace Relearn1_StackAndQueue
             //int num2 = a.GetTop();
             //Console.WriteLine("The top element is :" + num2);
 
-            LinkStack1<int> a=new LinkStack1<int>();
-            int temp=a.Conversion(5142);
-            Console.WriteLine(temp);
+            //LinkStack1<int> a=new LinkStack1<int>();
+            //int temp=a.Conversion(5142);
+            //Console.WriteLine(temp);
+
+            //----------------------------------------------------------------------------------
+
+            //Test queue
+
+
 
             Console.ReadKey();
         }
