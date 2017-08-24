@@ -1,1 +1,8 @@
 C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\bin\Debug\Relearn1-Tree.exe.config
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\bin\Debug\Relearn1-Tree.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\bin\Debug\Relearn1-Tree.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\bin\Debug\Relearn1-StackAndQueue.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\bin\Debug\Relearn1-StackAndQueue.pdb
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\obj\Debug\Relearn1-Tree.csprojResolveAssemblyReference.cache
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\obj\Debug\Relearn1-Tree.exe
+C:\Users\MJ\MyGit\LearnDataStructure\数据结构\DS\Relearn1-Tree\obj\Debug\Relearn1-Tree.pdb

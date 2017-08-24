@@ -24,7 +24,7 @@ namespace Relearn1_Tree
         public Node<T> LChild
         {
             get { return lChild; }
-            set { LChild = value; }
+            set { lChild = value; }
         }
 
         //右孩子引用域属性

@@ -115,6 +115,20 @@ namespace Relearn1_StackAndQueue
 
         }
 
+        public T GetOut()
+        {
+            if(IsEmpty())
+            {
+                Console.WriteLine("The queue is empty,you can not remove element!");
+                return default (T);
+            }
+
+            
+            //data[front] = default(T);
+            front = (front + 1) % maxsize;
+            return data[front];
+        }
+
         //获取队头数据元素
         public T GetFront()
         {
