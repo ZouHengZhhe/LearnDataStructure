@@ -116,7 +116,7 @@ namespace Relearn1_Tree
             return false;
         }
 
-        //先序遍历
+        //先序遍历（递归）
         public void PreOrder(Node<T> root)
         {
             //根节点为空
@@ -136,7 +136,7 @@ namespace Relearn1_Tree
 
         }
 
-        //中序遍历
+        //中序遍历（递归）
         public void InOrder(Node<T> root)
         {
             if (root==null)
@@ -152,7 +152,7 @@ namespace Relearn1_Tree
 
         }
 
-        //后序遍历
+        //后序遍历（递归）
         public void PostOrder(Node<T> root)
         {
             if (root==null)
@@ -202,6 +202,71 @@ namespace Relearn1_Tree
 
             }
 
+        }
+
+        
+        //寻找某值(递归)
+        public Node<T> Search(Node<T> root, T value)
+        {
+            Node<T> p = root;
+
+            if (p==null)
+            {
+                return null;
+            }
+
+            if (p.Data.Equals(value))
+            {
+                return p;
+            }
+
+            if (p.LChild!=null)
+            {
+                Search(p.LChild,value);
+            }
+
+            if (p.RChild!=null)
+            {
+                Search(p.RChild,value);
+            }
+            return null;
+        }
+
+        //统计出二叉树中叶子结点的数目(递归)
+        public int CountLeafNode(Node<T> root)
+        {
+            if (root==null)
+            {
+                return 0;
+            }else if (root.LChild==null&&root.RChild==null)
+            {
+                return 1;
+            }
+            else
+            {
+                return CountLeafNode(root.LChild)+CountLeafNode(root.RChild);
+            }
+        }
+
+        //求二叉树的深度
+        public int GetHeight(Node<T> root )
+        {
+            int lh, rh;
+
+            if (root==null)
+            {
+                return 0;
+            }
+            else if (root.LChild==null&&root.RChild==null)
+            {
+                return 1;
+            }
+            else
+            {
+                lh=GetHeight(root.LChild);
+                rh=GetHeight(root.RChild);
+                return (lh > rh ? lh : rh) + 1;
+            }
         }
 
         #endregion
