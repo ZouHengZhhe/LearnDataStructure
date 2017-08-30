@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-String", "Relearn1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-Tree", "Relearn1-Tree\Relearn1-Tree.csproj", "{A381B431-0F7F-4889-A7BD-6D4AB8456C57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn-Diagram", "Relearn-Diagram\Relearn-Diagram.csproj", "{96A9F312-948E-46C6-A70E-132329BA537F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A381B431-0F7F-4889-A7BD-6D4AB8456C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A381B431-0F7F-4889-A7BD-6D4AB8456C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A381B431-0F7F-4889-A7BD-6D4AB8456C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A9F312-948E-46C6-A70E-132329BA537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A9F312-948E-46C6-A70E-132329BA537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A9F312-948E-46C6-A70E-132329BA537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A9F312-948E-46C6-A70E-132329BA537F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
