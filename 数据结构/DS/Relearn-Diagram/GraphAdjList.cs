@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Relearn1_StackAndQueue;
 
 namespace Relearn_Diagram
 {
@@ -11,6 +12,7 @@ namespace Relearn_Diagram
     {
         //邻接表数组
         private VexNode<T>[] adjList;
+        private int[] visited;       //用于记下每个已访问过的顶点
 
         //索引器
         public VexNode<T> this[int index]
@@ -27,6 +29,12 @@ namespace Relearn_Diagram
             {
                 adjList[i].Data = nodes[i];
                 adjList[i].FirstAdj = null;
+            }
+
+            visited=new int[nodes.Length];
+            for (int i = 0; i < visited.Length; i++)
+            {
+                visited[i] = 0;
             }
         }
 
@@ -177,8 +185,7 @@ namespace Relearn_Diagram
             }
 
         }
-
-
+        
         //判断v1和v2之间是否存在边
         public bool IsEdge(Node<T> v1, Node<T> v2)
         {
@@ -200,6 +207,72 @@ namespace Relearn_Diagram
             }
             return false;
         }
-        
+
+
+        //无向图的深度优先遍历(Depth First Search)算法如下
+        //该算法时间复杂度：邻接矩阵：O(n^2);邻接表O(n)
+        public void DFS()
+        {
+            for (int i = 0; i < visited.Length; i++)
+            {
+                if (visited[i]==0)
+                {
+                    DFSAL(i);
+                }
+            }
+        }
+
+        //从某个顶点出发进行深度优先遍历(递归)
+        public void DFSAL(int i)
+        {
+            visited[i] = 1;
+            adjListNode<T> p = adjList[i].FirstAdj;
+
+            while (p!=null)
+            {
+                if (visited[p.Adjvex]==0)
+                {
+                    DFSAL(p.Adjvex);
+                }
+                p = p.Next;
+            }
+        }
+
+
+        //无向图的广度优先遍历(Breadth First Search)
+        public void BFS()
+        {
+            for (int i = 0; i < visited.Length; i++)
+            {
+                if (visited[i]==0)
+                {
+                    BFSAL(i);
+                }
+            }
+        }
+
+        //从某个顶点出发进行广度优先遍历
+        public void BFSAL(int i)
+        {
+            visited[i] = 1;
+            CSeqQueue1<int> cq=new CSeqQueue1<int>(visited.Length);
+            cq.In(i);
+            while (!cq.IsEmpty())
+            {
+                int k = cq.GetOut();
+                adjListNode<T> p = adjList[k].FirstAdj;
+
+                while (p!=null)
+                {
+                    if (visited[p.Adjvex]==0)
+                    {
+                        visited[p.Adjvex] = 1;
+                        cq.In(p.Adjvex);
+                    }
+                    p = p.Next;
+                }
+            }
+        }
+
     }
 }
