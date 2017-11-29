@@ -31,6 +31,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-Tree", "Relearn1-T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn-Diagram", "Relearn-Diagram\Relearn-Diagram.csproj", "{96A9F312-948E-46C6-A70E-132329BA537F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn1-Sort", "Relearn1-Sort\Relearn1-Sort.csproj", "{74BE4F5E-C1DA-41E5-A018-F186F4B1D267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-查找", "8-查找\8-查找.csproj", "{89A9C8F9-C5D3-4712-9C21-A244B6EFAF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDataStructure-线性表顺序存储结构", "MyDataStructure\MyDataStructure-线性表顺序存储结构.csproj", "{CE8C4C38-11B1-4A9D-891D-791FC2894B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDataStructure-单链表", "MyDataStructure-单链表\MyDataStructure-单链表.csproj", "{C19DCE20-663E-4405-9A59-06D86C2DB9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +101,22 @@ Global
 		{96A9F312-948E-46C6-A70E-132329BA537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A9F312-948E-46C6-A70E-132329BA537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A9F312-948E-46C6-A70E-132329BA537F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BE4F5E-C1DA-41E5-A018-F186F4B1D267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BE4F5E-C1DA-41E5-A018-F186F4B1D267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BE4F5E-C1DA-41E5-A018-F186F4B1D267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BE4F5E-C1DA-41E5-A018-F186F4B1D267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A9C8F9-C5D3-4712-9C21-A244B6EFAF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A9C8F9-C5D3-4712-9C21-A244B6EFAF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A9C8F9-C5D3-4712-9C21-A244B6EFAF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A9C8F9-C5D3-4712-9C21-A244B6EFAF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8C4C38-11B1-4A9D-891D-791FC2894B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8C4C38-11B1-4A9D-891D-791FC2894B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8C4C38-11B1-4A9D-891D-791FC2894B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8C4C38-11B1-4A9D-891D-791FC2894B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19DCE20-663E-4405-9A59-06D86C2DB9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19DCE20-663E-4405-9A59-06D86C2DB9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19DCE20-663E-4405-9A59-06D86C2DB9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19DCE20-663E-4405-9A59-06D86C2DB9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
